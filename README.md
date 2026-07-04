@@ -58,5 +58,6 @@ The generated visualization is saved to the configured `runs/detect/gradcam_imag
 
 ## Notes
 
-- Large generated folders such as `Datasets/`, `runs/`, `venv/`, and model weight files are ignored by Git in this repository.
+- Large generated folders such as `Datasets/`, `runs/`, and `venv/` are ignored by Git in this repository.
+- The root model weight files `yolo11n.pt`, `yolov8n.pt`, and `yolov8s.pt` are tracked in Git so they can be published with the project.
 - Some scripts use absolute Windows paths. If you move the project, update those paths before running the scripts.
